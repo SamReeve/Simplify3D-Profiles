@@ -380,7 +380,7 @@
     <bottomSolidLayers>2</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
     <firstLayerHeightPercentage>120</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
     <infillLayerInterval>1</infillLayerInterval>
     <useRaft>0</useRaft>
@@ -390,6 +390,7 @@
     <skirtOffset>15</skirtOffset>
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>2</denseSupportLayers>
+    <gcodeZoffset>-0.5</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureQuality name="Higher Resolution - No Raft">
     <layerHeight>0.2223</layerHeight>
@@ -397,7 +398,7 @@
     <bottomSolidLayers>3</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
     <firstLayerHeightPercentage>140</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
     <infillLayerInterval>1</infillLayerInterval>
     <useRaft>0</useRaft>
@@ -407,6 +408,7 @@
     <skirtOffset>15</skirtOffset>
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>2</denseSupportLayers>
+    <gcodeZoffset>-0.5</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureQuality name="Highest Resolution - No Raft">
     <layerHeight>0.1508</layerHeight>
@@ -414,7 +416,7 @@
     <bottomSolidLayers>4</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
     <firstLayerHeightPercentage>180</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
     <infillLayerInterval>2</infillLayerInterval>
     <useRaft>0</useRaft>
@@ -424,48 +426,52 @@
     <skirtOffset>15</skirtOffset>
     <supportLayerInterval>2</supportLayerInterval>
     <denseSupportLayers>6</denseSupportLayers>
+    <gcodeZoffset>-0.5</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureQuality name="Standard Resolution - Raft">
     <layerHeight>0.3175</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>2</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
-    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
+    <firstLayerHeightPercentage>180</firstLayerHeightPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>1.5</firstLayerUnderspeed>
     <infillLayerInterval>1</infillLayerInterval>
     <useRaft>1</useRaft>
     <useSkirt>0</useSkirt>
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>3</denseSupportLayers>
+    <gcodeZoffset>-0.9</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureQuality name="Higher Resolution - Raft">
     <layerHeight>0.2223</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
-    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
+    <firstLayerHeightPercentage>180</firstLayerHeightPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>1.5</firstLayerUnderspeed>
     <infillLayerInterval>1</infillLayerInterval>
     <useRaft>1</useRaft>
     <useSkirt>0</useSkirt>
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>3</denseSupportLayers>
+    <gcodeZoffset>-0.9</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureQuality name="Highest Resolution - Raft">
     <layerHeight>0.1508</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
     <infillPercentage>15</infillPercentage>
-    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
+    <firstLayerHeightPercentage>180</firstLayerHeightPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <firstLayerUnderspeed>1.5</firstLayerUnderspeed>
     <infillLayerInterval>2</infillLayerInterval>
     <useRaft>1</useRaft>
     <useSkirt>0</useSkirt>
     <supportLayerInterval>2</supportLayerInterval>
     <denseSupportLayers>6</denseSupportLayers>
+    <gcodeZoffset>-0.9</gcodeZoffset>
   </autoConfigureQuality>
   <autoConfigureExtruders name="Left Extruder" allowedToolheads="2">
     <primaryExtruder>0</primaryExtruder>
