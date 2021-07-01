@@ -295,9 +295,6 @@
 	<outlineOverlapPercentage>22</outlineOverlapPercentage>
 	<infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
 	<raftExtruder>0</raftExtruder>
-	<raftTopLayers>3</raftTopLayers>
-	<raftBaseLayers>2</raftBaseLayers>
-	<raftOffset>8</raftOffset>
 	<filamentPricesPerKg>53.32|53.32|53.32|53.32|53.32|53.32</filamentPricesPerKg>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
@@ -367,9 +364,6 @@
 	<outlineOverlapPercentage>22</outlineOverlapPercentage>
 	<infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
 	<raftExtruder>0</raftExtruder>
-	<raftTopLayers>3</raftTopLayers>
-	<raftBaseLayers>2</raftBaseLayers>
-	<raftOffset>6</raftOffset>
 	<filamentPricesPerKg>44.09|44.09|44.09|44.09|44.09|44.09</filamentPricesPerKg>
   </autoConfigureMaterial>
   <autoConfigureQuality name="Standard Resolution - No Raft">
