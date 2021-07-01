@@ -236,7 +236,7 @@
       <width>0.48</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>2.0</retractionDistance>
+      <retractionDistance>1.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>3600</retractionSpeed>
@@ -252,7 +252,7 @@
       <width>0.48</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>2.0</retractionDistance>
+      <retractionDistance>1.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>3600</retractionSpeed>
@@ -298,7 +298,6 @@
 	<raftTopLayers>3</raftTopLayers>
 	<raftBaseLayers>2</raftBaseLayers>
 	<raftOffset>8</raftOffset>
-	<raftSeparationDistance>0.34</raftSeparationDistance>
 	<filamentPricesPerKg>53.32|53.32|53.32|53.32|53.32|53.32</filamentPricesPerKg>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
@@ -309,7 +308,7 @@
       <width>0.48</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>2.0</retractionDistance>
+      <retractionDistance>1.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>3600</retractionSpeed>
@@ -325,7 +324,7 @@
       <width>0.48</width>
       <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
-      <retractionDistance>2.0</retractionDistance>
+      <retractionDistance>1.0</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0</retractionZLift>
       <retractionSpeed>3600</retractionSpeed>
@@ -371,7 +370,6 @@
 	<raftTopLayers>3</raftTopLayers>
 	<raftBaseLayers>2</raftBaseLayers>
 	<raftOffset>6</raftOffset>
-	<raftSeparationDistance>0.27</raftSeparationDistance>
 	<filamentPricesPerKg>44.09|44.09|44.09|44.09|44.09|44.09</filamentPricesPerKg>
   </autoConfigureMaterial>
   <autoConfigureQuality name="Standard Resolution - No Raft">
