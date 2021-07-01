@@ -391,6 +391,7 @@
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>2</denseSupportLayers>
     <gcodeZoffset>-0.5</gcodeZoffset>
+    <raftSeparationDistance>0</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureQuality name="Higher Resolution - No Raft">
     <layerHeight>0.2223</layerHeight>
@@ -409,6 +410,7 @@
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>2</denseSupportLayers>
     <gcodeZoffset>-0.5</gcodeZoffset>
+    <raftSeparationDistance>0</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureQuality name="Highest Resolution - No Raft">
     <layerHeight>0.1508</layerHeight>
@@ -427,6 +429,7 @@
     <supportLayerInterval>2</supportLayerInterval>
     <denseSupportLayers>6</denseSupportLayers>
     <gcodeZoffset>-0.5</gcodeZoffset>
+    <raftSeparationDistance>0</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureQuality name="Standard Resolution - Raft">
     <layerHeight>0.3175</layerHeight>
@@ -442,6 +445,7 @@
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>3</denseSupportLayers>
     <gcodeZoffset>-0.9</gcodeZoffset>
+    <raftSeparationDistance>0.22</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureQuality name="Higher Resolution - Raft">
     <layerHeight>0.2223</layerHeight>
@@ -457,6 +461,7 @@
     <supportLayerInterval>1</supportLayerInterval>
     <denseSupportLayers>3</denseSupportLayers>
     <gcodeZoffset>-0.9</gcodeZoffset>
+    <raftSeparationDistance>0.15</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureQuality name="Highest Resolution - Raft">
     <layerHeight>0.1508</layerHeight>
@@ -472,6 +477,7 @@
     <supportLayerInterval>2</supportLayerInterval>
     <denseSupportLayers>6</denseSupportLayers>
     <gcodeZoffset>-0.9</gcodeZoffset>
+    <raftSeparationDistance>0.08</raftSeparationDistance>
   </autoConfigureQuality>
   <autoConfigureExtruders name="Left Extruder" allowedToolheads="2">
     <primaryExtruder>0</primaryExtruder>
